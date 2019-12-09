@@ -9,9 +9,6 @@ html, body {
 }
 
 .icons i {
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 1.5rem;
   cursor: pointer;
 }
 

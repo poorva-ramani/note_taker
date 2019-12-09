@@ -23,7 +23,6 @@ module.exports = function (app) {
     };
     dbData.push(newNote);
     res.json(dbData);
-    console.log(dbData)
   });
 
   // API DELETE Requests
@@ -37,7 +36,7 @@ module.exports = function (app) {
     for (var i = index; i < dbData.length; i++) {
       dbData[i].id--;
     }
-    console.log(dbData)
+  //  console.log(dbData)
     res.json(dbData);
   });
 }
